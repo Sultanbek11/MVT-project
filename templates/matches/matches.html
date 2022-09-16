@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2><center>Matches</center></h2>
+ <center>{% for match in date_match %}
+        <p>{{ match }}</p>
+    {% endfor %}
+ </center>
+
+{% endblock %}
